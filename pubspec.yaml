@@ -1,0 +1,88 @@
+name: genius_bank
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  shared_preferences: ^2.0.18
+  another_flushbar: ^1.12.29
+  flutter_screenutil: ^5.6.1
+  pull_to_refresh_flutter3: ^2.0.1
+  get_it: ^7.2.0
+  injectable: ^2.1.0
+  connectivity_plus: ^3.0.3
+  flutter_svg: ^2.0.0
+  phone_form_field: ^7.0.6
+  avatars: ^3.0.2
+  flutter_staggered_animations: ^1.1.1
+  cached_network_image: ^3.2.3
+  url_launcher: ^6.1.10
+  flutter_rating_bar: ^4.0.1
+  flutter_widget_from_html: ^0.10.0
+  webview_flutter: ^4.0.6
+  country_pickers: ^2.0.0
+  dropdown_search: ^5.0.6
+  image_picker: ^0.8.6+4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  injectable_generator:
+  build_runner:
+  flutter_gen_runner:
+
+
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.11.0
+  get: ^4.6.5
+
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#ffffff"
+
+flutter:
+  generate: true
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/flags/
+    - assets/icons/
+
+
+  fonts:
+    - family: MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
